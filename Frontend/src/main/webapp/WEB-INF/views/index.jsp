@@ -70,7 +70,6 @@ href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/b
   
 	$('.carousel .carousel-item[data-src]').each(function() {
 		var $this = $(this);
-
 		$this.prepend([
 			'<div style="background-image: url(', $this.attr('data-src'), ')"></div>'
 		].join(''));

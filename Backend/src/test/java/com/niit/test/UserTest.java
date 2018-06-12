@@ -69,7 +69,7 @@ public class UserTest {
 		System.out.println("Address is "+user.getAddress());
 	}
 	
-	
+	@Ignore
 	@Test
 	public void updateUserDetailTest() {
 		User user = userDAO.viewUserDetailByUsername("U1002");
@@ -77,7 +77,7 @@ public class UserTest {
 		user.setEmailId("sansa@winterfell.com");
 		assertTrue("Problem in Product Insertion",userDAO.updateUserDetail(user));
 	}
-		
+	@Ignore	
 	@Test
 	public void listUser(){
 		assertNotNull("Issue in listing user details..",userDAO.listUser());

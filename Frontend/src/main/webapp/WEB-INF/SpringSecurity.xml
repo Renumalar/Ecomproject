@@ -70,8 +70,8 @@
 <security:authentication-manager>
 	<security:authentication-provider>
 		<security:jdbc-user-service data-source-ref="dataSource" 
-				users-by-username-query="select username, password, enabled from USERDETAIL where username=?"
-				authorities-by-username-query="select username, role from USERDETAIL where username=?" />
+				users-by-username-query="select username, password, enabled from USER where username=?"
+				authorities-by-username-query="select username, role from USER where username=?" />
 	</security:authentication-provider>
 </security:authentication-manager>								
 </beans:beans>								

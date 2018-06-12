@@ -42,6 +42,11 @@
 						<span class="input-group-addon"><i class="glyphicon glyphicon-tasks"></i></span>
 						<form:textarea path="address" rows="5" cols="30" cssClass="form-control" placeholder="Enter your address" required="true"/>
 					</div>
+					<label for="zipcode" class="col-md-3 control-label">zipcode</label>
+					<div style="margin-bottom: 25px" class="input-group">
+						<span class="input-group-addon"></span>
+						<form:input path="zipcode" cssClass="form-control" placeholder="Enter your zipcode" pattern="^[0-9]{6}$" required="true"/>
+					</div>
 					
                     <div style="border-top: 1px solid#4cae4c; padding-top:15px;" ></div>
                     

@@ -59,7 +59,7 @@ public class UserDAOImpl implements UserDAO {
 	@Override
 	public User viewUserDetailByEmail(String emailId) {
 		try {
-			return (User) sessionFactory.getCurrentSession().createQuery("from UserDetail where emailID='"+emailId+"'").list();
+			return (User) sessionFactory.getCurrentSession().createQuery("from User where emailID='"+emailId+"'").list();
 		}catch(Exception e) {
 			System.out.println("There is an exception here! The details are: \n =================================");
 			System.out.println(e);
@@ -71,7 +71,7 @@ public class UserDAOImpl implements UserDAO {
 	@Override
 	public User viewUserDetailByUsername(String username) {
 		try {
-			return (User) sessionFactory.getCurrentSession().createQuery("from UserDetail where username='"+username+"'").list().get(0);
+			return (User) sessionFactory.getCurrentSession().createQuery("from User where username='"+username+"'").list().get(0);
 		}catch(Exception e) {
 			System.out.println("There is an exception here! The details are: \n =================================");
 			System.out.println(e);
@@ -84,7 +84,7 @@ public class UserDAOImpl implements UserDAO {
 	@Override
 	public List<User> listUser() {
 		try {
-			return (List<User>) sessionFactory.getCurrentSession().createQuery("from UserDetail").list();
+			return (List<User>) sessionFactory.getCurrentSession().createQuery("from User").list();
 		}catch(Exception e) {
 			System.out.println("There is an exception here! The details are: \n =================================");
 			System.out.println(e);
