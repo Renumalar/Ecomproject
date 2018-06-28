@@ -41,10 +41,10 @@
 						<form:input path="emailId" readonly="true" cssClass="form-control"  required="true"/>
 					</div>
 										
-					<label for="mobile" class="col-md-3 control-label">Mobile</label>
+					<label for="mobileNumber" class="col-md-3 control-label">Mobile</label>
 					<div style="margin-bottom: 25px" class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-						<form:input path="mobileNo" cssClass="form-control"  required="true"/>
+						<form:input path="mobileNumber" cssClass="form-control"  required="true"/>
 					</div>
 					
 					<label for="address" class="col-md-3 control-label">Address</label>

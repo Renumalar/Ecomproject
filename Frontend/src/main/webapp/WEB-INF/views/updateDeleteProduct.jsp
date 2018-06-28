@@ -43,7 +43,7 @@
 					<tbody>
 					<c:forEach items="${listProducts}" var="product">
 					<tr>
-						<td class="tableTextvAlign" align="center"><img src="<c:url value="/resources/images/${product.productId}.jpg"/>" alt="ProductImage" width="70" height="100"/></td>
+						<td class="tableTextvAlign" align="center"><img src="<c:url value="/resources/images/product/${product.productId}.png"/>" alt="ProductImage" width="70" height="100"/></td>
 						<td class="tableTextvAlign" align="center">${product.productId}</td>
 						<td class="tableTextvAlign">${product.productName}</td>
 						<td class="tableTextvAlign">${product.prodDesc}</td>

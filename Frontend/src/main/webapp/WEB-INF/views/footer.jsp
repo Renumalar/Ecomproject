@@ -73,7 +73,7 @@ a {
 	text-decoration: none;
 }
 a:visited, a:focus{
-	color: white;
+	
 }
 
 a:hover {
@@ -85,7 +85,8 @@ a:hover {
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500i,700,800" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+
+	
 </head>
 <body>
  

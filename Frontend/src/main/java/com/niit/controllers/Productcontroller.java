@@ -106,7 +106,7 @@ public class Productcontroller {
 	public boolean saveImage(MultipartFile filedet, int productId) {
 		System.out.println("Inside save image method");
 		boolean flag = false;
-		String imagePath = "G:\\DTE Project\\ShoppingCartFrontend\\src\\main\\webapp\\resources\\images\\";
+		String imagePath = "D:\\project123\\Frontend\\src\\main\\webapp\\WEB-INF\\resources\\images\\product\\";
 		imagePath = imagePath + String.valueOf(productId) + ".jpg";
 		System.out.println("Image Path: " + imagePath);
 		File image = new File(imagePath);
@@ -147,7 +147,7 @@ public class Productcontroller {
 		for(int i=1;i<=product.getStock();i++)
 			quantityMap.put(i,String.valueOf(i));
 		m.addAttribute("quantityValues", quantityMap);
-		return "viewProductDetail";
+		return "viewProductDetails";
 	}
 	
 	@RequestMapping("/deleteProduct/{productId}")

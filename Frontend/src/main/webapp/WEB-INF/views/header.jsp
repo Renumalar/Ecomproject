@@ -62,7 +62,7 @@
     	    		<span class="icon-bar"></span>
      	 		</button>
      	 		<a class="navbar-brand" href="#">     	 		 
-     	 			<img alt="Shopping Cart" class="brandimage" src="${imagesUrl}/C:\Users\Renu\Downloads\images (2).png" />
+     	 			
       			</a> 
     		</div>
 	

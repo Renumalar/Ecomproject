@@ -39,7 +39,7 @@ public class Ordercontroller {
 		m.addAttribute("cartList", listCartItems);
 		m.addAttribute("productDetails", this.getProductName(listCartItems));
 		m.addAttribute("grandTotal", this.calculateGrandTotal(listCartItems));
-		return "orderConfirmPage";
+		return "orderConfirm";
 	}
 	
 	@RequestMapping("/thankYou")
