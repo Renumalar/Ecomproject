@@ -25,7 +25,9 @@ import com.niit.daoimpl.OrderDetailDAOImpl;
 import com.niit.daoimpl.ProductDAOImpl;
 import com.niit.daoimpl.SupplierDAOImpl;
 import com.niit.daoimpl.UserDAOImpl;
+import com.niit.model.CartItem;
 import com.niit.model.Category;
+import com.niit.model.OrderDetail;
 import com.niit.model.Product;
 import com.niit.model.Supplier;
 import com.niit.model.User;
@@ -45,8 +47,8 @@ public class DBConfig {
 		DriverManagerDataSource dataSource=new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.h2.Driver");
 		dataSource.setUrl("jdbc:h2:~/test");
-		dataSource.setUsername("user");
-		dataSource.setPassword("pass");
+		dataSource.setUsername("sa");
+		dataSource.setPassword("");
 		System.out.println("---Data Source Created---");
 		return dataSource;
 	}
@@ -65,12 +67,19 @@ public class DBConfig {
 		factoryBuilder.addAnnotatedClass(Product.class);
 		factoryBuilder.addAnnotatedClass(User.class);
 		factoryBuilder.addAnnotatedClass(Supplier.class);
-		
+		factoryBuilder.addAnnotatedClass(CartItem.class);
+		factoryBuilder.addAnnotatedClass(OrderDetail.class);
 		
 		factoryBuilder.addProperties(hibernateProp);
 		
 		System.out.println("Creating SessionFactory Bean");
 		return factoryBuilder.buildSessionFactory();
+	}
+	/* Method to create the bean of TransactionManager */
+	@Bean(name="txManager")
+	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory) {
+		System.out.println("---Transaction Manager----");
+		return new HibernateTransactionManager(sessionFactory);
 	}
 	
 	/* Method to create the bean of CategoryDAO */
@@ -100,12 +109,7 @@ public class DBConfig {
 		System.out.println("----Supplier DAO bean creation---");
 		return new SupplierDAOImpl();
 	}	
-	/* Method to create the bean of TransactionManager */
-	@Bean(name="txManager")
-	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory) {
-		System.out.println("---Transaction Manager----");
-		return new HibernateTransactionManager(sessionFactory);
-	}
+	
 	
 	/* Method to create the bean of CartItemDAO */
 	@Bean(name="cartItemDAO")

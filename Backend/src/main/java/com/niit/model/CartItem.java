@@ -3,8 +3,10 @@ package com.niit.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table
 public class CartItem {
 	@Id
 	@GeneratedValue
