@@ -116,7 +116,7 @@
 					<td class="tableTextvAlign" align="right">${product.stock}</td>
 					<td class="tableTextvAlign" align="right">${product.categoryId}</td>
 					<td class="tableTextvAlign" align="center">${product.supplierId}</td>
-					<td><a href="<c:url value="editProduct/${product.productId}" />"><img src="resources/images/bgImages/edit.png" alt="Edit" onerror="this.src='../resources/images/bgImages/edit.png';"/></a></td>
+					<td><a href="<c:url value="editProduct/${product.productId}" />"><img src="file:///E:/Malar/Frontend/src/main/webapp/WEB-INF/resources/edit.png" alt="Edit" onerror="this.src='../resources/images/bgImages/edit.png';"/></a></td>
 					<td><a href="<c:url value="deleteProduct/${product.productId}" />" ><img src="resources/images/bgImages/delete.png" alt="Delete" onerror="this.src='../resources/images/bgImages/delete.png';"/></a></td>
 				</tr>
 				</c:forEach>

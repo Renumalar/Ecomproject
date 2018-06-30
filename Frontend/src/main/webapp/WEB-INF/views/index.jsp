@@ -20,15 +20,15 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="D:/project123/Frontend/src/main/webapp/WEB-INF/resources/images/C-images/pexels-photo-210590.jpeg" alt="Cameras and Accessories" style="width: 100%;">
+							<img src="resources/images/carouselImages/pexels-photo-210590.jpeg" alt="Cameras and Accessories" style="width: 100%;">
 						</div>
 
 						<div class="item">
-							<img src="D:/project123/Frontend/src/main/webapp/WEB-INF/resources/images/C-images/pexels-photo-260637.jpeg" alt="Shoes" style="width: 100%;">
+							<img src="resources/images/carouselImages/pexels-photo-260637.jpeg" alt="Shoes" style="width: 100%;">
 						</div>
 
 						<div class="item">
-							<img src="file:///D:/project123/Frontend/src/main/webapp/WEB-INF/resources/images/C-images/pexels-photo-269613%20(1).jpeg" alt="Books" style="width: 100%;">
+							<img src="resources/images/carouselImages/pexels-photo-269613 (1).jpeg" alt="Books" style="width: 100%;">
 						</div>
 						
 						
