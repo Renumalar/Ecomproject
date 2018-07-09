@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.niit.dao.SupplierDAO;
-import com.niit.model.Product;
+
 import com.niit.model.Supplier;
 
 @Repository("supplierDAO")
