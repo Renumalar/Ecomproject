@@ -58,7 +58,7 @@
 				<c:forEach items="${listCategories}" var="category">
 					<div class="col-sm-6 col-md-4">					
 						<div class="thumbnail">
-							<img src="resources/images/shoppingcart.png" alt="Alternate Name for the picture">
+							<img src="resources/images/Category/shoppingcart.png" alt="Alternate Name for the picture">
 							<div class="caption">
 								<h3>${category.categoryName}</h3>
 								<p>${category.categoryDesc}</p>

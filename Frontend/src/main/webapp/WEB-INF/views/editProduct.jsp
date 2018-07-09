@@ -9,7 +9,7 @@
 	<title>Update Product Details</title>
 	<style>
 	.bg { 
-    	background-image: url("../resources/images/bgImages/Final.jpg"), url("resources/images/bgImages/Final.jpg");
+    	
     	height: 100%; 
     	background-position: center;
     	background-repeat:repeat-y;

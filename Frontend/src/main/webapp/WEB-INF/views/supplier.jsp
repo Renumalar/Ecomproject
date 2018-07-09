@@ -36,7 +36,7 @@ div {
 </style>
 <body>
 
-<h3>Enter Supplier Details<h3>
+<h3>Enter Supplier Details</h3>
 
 <div>
   <form action="/action_page.php">

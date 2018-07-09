@@ -9,7 +9,7 @@
 <title>Cart Page</title>
 <style>
 	.bg { 
-    	background-image: url("../resources/images/bgImages/Final.jpg"), url("resources/images/bgImages/Final.jpg");
+    	
     	height: 100%; 
     	background-position: center;
     	background-repeat:repeat-y;
@@ -42,7 +42,7 @@
 					</c:forEach>
 					<tr align="center">
 						<td class="tableTextvAlign" rowspan="5">
-							<img src="<c:url value="/resources/images/${cart.productId}.jpg"/>" alt="ProductImage" width="100" height="150"/>
+							<img src="<c:url value="/resources/images/product/${cart.productId}.jpg"/>" alt="ProductImage" width="100" height="150"/>
 						</td>
 					</tr>
 					<tr>

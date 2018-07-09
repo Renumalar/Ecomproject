@@ -28,7 +28,7 @@
 <form:form action="${actionString}">
 	<table align="center" class="table table-hover table-condensed"  style="width: 90%;">
 	<tr align="center">
-		<td class="tableTextvAlign" rowspan="7"><img src="<c:url value="/resources/images/${product.productId}.jpg"/>" alt="ProductImage" width="100" height="100"/> </td>
+		<td class="tableTextvAlign" rowspan="7"><img src="<c:url value="/resources/images/product/${product.productId}.jpg"/>" alt="ProductImage" width="50" height="100"/> </td>
 	</tr>
 	<tr>
 		<td>Product</td>

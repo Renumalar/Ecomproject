@@ -37,6 +37,7 @@
         		</c:forEach>
         		</table>
         		<h3 align="center" class="well">Please visit again.</h3>
+        		<a style="align:right;" href="viewProducts" class="btn btn-primary" role="button">Continue Shopping</a>        
         	</div>
         </div>
     </div>

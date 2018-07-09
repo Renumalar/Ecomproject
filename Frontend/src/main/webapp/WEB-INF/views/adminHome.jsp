@@ -45,7 +45,7 @@
 			<div class="media">
 				<div class="media-left media-middle">
 					<a href="updateProduct"> 
-						<img class="media-object" src="resources/images/img1.jpeg" alt="Products">
+						<img class="media-object" src="resources/images/bgImages/Products.png" alt="Products">
 					</a>
 				</div>
 				<div class="media-body">
@@ -60,7 +60,7 @@
 			<div class="media">
 				<div class="media-left media-middle">
 					<a href="viewUsersList"> 
-						<img class="media-object" src="resources/images/bgImages/Users.jpg" alt="Users">
+						<img class="media-object" src="resources/images/bgImages/userseen.png" alt="Users">
 					</a>
 				</div>
 				<div class="media-body">

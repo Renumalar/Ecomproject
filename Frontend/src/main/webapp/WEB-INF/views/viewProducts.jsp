@@ -42,7 +42,7 @@
 				<c:if test="${catIdFromProduct==catIdFromCategoryList}">
 				  <div class="col-sm-3 col-md-4">   
 				    <div class="thumbnail">
-						<a href="viewProductDetail/${product.productId}"><img src="<c:url value="/resources/images/${product.productId}.jpg"/>" alt="ProductImage"/></a>
+						<a href="viewProductDetail/${product.productId}"><img src="<c:url value="/resources/images/product/${product.productId}.jpg"/> " alt="ProductImage" height="100" width="75"/></a>
 						<div class="caption">
 							<h3><a href="viewProductDetail/${product.productId}">${product.productName}</a></h3>
 							<p>${product.prodDesc}</p>

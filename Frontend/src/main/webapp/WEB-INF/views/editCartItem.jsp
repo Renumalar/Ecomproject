@@ -40,7 +40,7 @@ function calculateSubTotal(price){
 				<table class="table table-hover table-condensed">
 					<tr align="center">
 						<td class="tableTextvAlign" rowspan="7">
-							<img src="<c:url value="/resources/images/${product.productId}.jpg"/>" alt="ProductImage" width="100" height="100" />
+							<img src="<c:url value="resources/images/product/${product.productId}.jpg"/>" alt="ProductImage" width="50" height="100" />
 						</td>
 					</tr>
 					<tr>

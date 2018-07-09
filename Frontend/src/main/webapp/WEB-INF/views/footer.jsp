@@ -4,7 +4,7 @@
 <script src='//static.codepen.io/assets/editor/live/console_runner-ce3034e6bde3912cc25f83cccb7caa2b0f976196f2f2d52303a462c826d54a73.js'></script>
 <script src='//static.codepen.io/assets/editor/live/css_live_reload_init-890dc39bb89183d4642d58b1ae5376a0193342f9aed88ea04330dc14c8d52f55.js'></script>
 <meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
-<link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+<link rel="mask-icon" type="" href="//static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="black" />
 <link rel="canonical" href="https://codepen.io/pa_patki/pen/XEOOzj?page=1" />
 
 
@@ -79,7 +79,7 @@ a:visited, a:focus{
 a:hover {
 	color: rgba(255, 255, 255, 0.6);
 }</style></head><body>
-<html>
+
 <head>
 	<title>Footer</title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500i,700,800" rel="stylesheet">
@@ -100,15 +100,16 @@ a:hover {
       <a href="https://www.youtube.com/" class="generic-anchor" target="_blank"><i class="fa fa-youtube"></i></a>
       <a href="https://plus.google.com/" class="generic-anchor" target="_blank" ><i class="fa fa-google-plus"></i></a>
       </div>
-  </section>
+  
   <section class="footer-bottom">
 <div class="footer-bottom-wrapper">   
 <i class="fa fa-copyright" role="copyright"></i> 2018 <strong>Three Secondz</strong>
 <span class="footer-bottom-rights"> - All Rights Reserved - </span>
     </div>
   </section>
+  
 </footer>
 </body>
-</html>
+
 
 </body></html>
